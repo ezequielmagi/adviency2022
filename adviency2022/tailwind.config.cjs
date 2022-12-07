@@ -5,7 +5,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily:{
+      'christmas': ['Mountains of Christmas'],
+    },
+    extend: {
+      backgroundImage:{
+        'bg-mobile': "url('/src/assets/fnmobile.jpg')",
+        'bg-desktop': "url('/src/assets/fondoNavideñoListo.jpg')"
+      }
+    },
   },
   plugins: [],
 }
