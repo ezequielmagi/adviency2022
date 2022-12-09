@@ -13,7 +13,6 @@ export function Wishlist(){
 
     <div>
         <AddNewWish AddNewItem={AddNewItem}/>
-        
         <div className="w-3/4 h-auto bg-slate-100 rounded-md mx-auto shadow-md shadow-red-700/40 md:w-2/4 md:my-2" >
          <ul>
           {
