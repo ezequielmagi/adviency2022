@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { Wishlist } from "./WishList"
 
 export function AddNewWish( { AddNewItem } ){
   
