@@ -22,6 +22,7 @@ export function AddNewWish( { AddNewItem } ){
     className="w-full flex flex-col md:flex"
     >
       <input 
+        autoFocus
         className="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-red-500 focus:ring-red-500 block w-3/4 mx-auto rounded-md sm:text-sm focus:ring-1 md:w-2/4 md:text-2xl"
         type="text" 
         placeholder="Add a wish!"
