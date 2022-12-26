@@ -11,7 +11,9 @@ module.exports = {
     extend: {
       backgroundImage:{
         'bg-mobile': "url('/src/assets/fnmobile.jpg')",
-        'bg-desktop': "url('/src/assets/fondoNavideñoListo.jpg')"
+        'bg-desktop': "url('/src/assets/fondoNavideñoListo.jpg')",
+        'bg-arg': "url('/src/assets/argentinacampeon.jpg')"
+        
       }
     },
   },
