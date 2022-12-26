@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export function AddNewWish( { AddNewItem , wishList , clearBag } ){
+export function AddNewWish( { AddNewItem } ){
   
   const [ inputValue , setInputValue ] = useState('')
   
@@ -32,9 +32,7 @@ export function AddNewWish( { AddNewItem , wishList , clearBag } ){
         Add
       </button>
 
-      {
-        wishList.length !== 0 ? <button className="w-3/4 mx-auto rounded-md my-2 p-2 text-lg font-bold text-gray-50 bg-blue-500 md:w-2/4" onClick={clearBag}> Clear Bag </button> : null
-      }
+
 
     </form>
     </div>
