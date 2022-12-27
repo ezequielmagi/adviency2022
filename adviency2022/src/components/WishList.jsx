@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { AddNewWish } from "./AddNewWhish"
 import { WishItem } from "./WishItem"
+import star from '../assets/star.svg'
 
 export function Wishlist(){
 
@@ -44,7 +45,15 @@ export function Wishlist(){
 
 
         { 
-          wishList.length === 0 ? <div className="w-3/4 p-4 text-center h-auto bg-slate-100 text-2xl rounded-md mx-auto shadow-md shadow-red-700/40 md:w-2/4 md:my-2">Come on! Tell me what you wish!</div> : null
+          wishList.length === 0 ? 
+          <div className="w-3/4 p-4 text-center h-auto bg-slate-100 text-2xl rounded-md mx-auto shadow-md shadow-red-700/40 md:w-2/4 md:my-2">
+            <p>Agrega deseos que la Scaloneta te los cumple!!</p>
+              <div className="flex justify-center p-2 lg:justify-evenly">
+                <img className="lg:h-10" src={star} alt="" />
+                <img className="lg:h-10" src={star} alt="" />
+                <img className="lg:h-10" src={star} alt="" />
+              </div>
+          </div> : null
         }
 
     </div>
